@@ -123,7 +123,8 @@ module.exports = function (grunt) {
                 options: {
                     sourceMap: 'public/assets/js/ai-core.js.map',
                     sourceMappingURL: 'ai-core.js.map',
-                    sourceMapPrefix: 10
+                    sourceMapPrefix: 10,
+                    beautify: true
                 },
                 files: {
                     'public/assets/js/ai-core.min.js': [
