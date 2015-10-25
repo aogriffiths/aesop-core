@@ -87,7 +87,7 @@ if ( ! function_exists( 'aesop_parallax_shortcode' ) ) {
 
 						if ( 'on' == $atts['parallaxbg'] ) { ?>
 
-				   			img.parallax({speed: 0.1});
+				   			img.parallax({speed: 0.8});
 
 		        		<?php }//end if
 
